@@ -1,0 +1,17 @@
+{
+  "name": "psi",
+  "version": "0.0.1",
+  "description": [
+    "Package for describing different quantum systems using diagrams.",
+    "E.g. these diagrams can describe and represent models such as D-CTC, P-CTC, T-CTC."
+  ],
+  "main": "./main.js",
+  "dependencies": {
+    "mathjax-node": "^2.1.1",
+    "@svgdotjs/svg.js": "^3.0.16",
+    "svgdom": "^0.0.21",
+    "lodash": "^4.17.15"
+  },
+  "author": "deverte",
+  "license": "MIT"
+}
