@@ -2,16 +2,19 @@
 
 JavaScript (Node.js) package for describing different quantum systems using diagrams. E.g. these diagrams can describe and represent models such as D-CTC, P-CTC and T-CTC.
 
+[[https://github.com/deverte/psi/wiki/images/bell.svg]]
+
 ---
 
 1. [Installation](#Installation)
-2. [Usage](#Usage)
+2. [Wiki](#Wiki)
+3. [Usage](#Usage)
     1. [Project structure](#Project-structure)
     2. [Application](#Application)
     3. [Diagram](#Diagram)
-3. [Package information](#Package-information)
-3. [Documentation](#Documentation)
-4. [License](#License)
+4. [Package information](#Package-information)
+5. [Documentation](#Documentation)
+6. [License](#License)
 
 ---
 
@@ -19,6 +22,9 @@ JavaScript (Node.js) package for describing different quantum systems using diag
 ```sh
 npm install git+https://git@github.com/deverte/psi.git
 ```
+
+## Wiki
+See [wiki](https://github.com/deverte/psi/wiki).
 
 ## Usage
 ### Project structure
