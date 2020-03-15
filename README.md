@@ -2,7 +2,7 @@
 
 JavaScript (Node.js) package for describing different quantum systems using diagrams. E.g. these diagrams can describe and represent models such as D-CTC, P-CTC and T-CTC.
 
-[[https://github.com/deverte/psi/wiki/images/bell.svg]]
+[[wiki/images/bell.svg]]
 
 ---
 
