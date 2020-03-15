@@ -13,8 +13,7 @@ JavaScript (Node.js) package for describing different quantum systems using diag
     2. [Application](#Application)
     3. [Diagram](#Diagram)
 4. [Package information](#Package-information)
-5. [Documentation](#Documentation)
-6. [License](#License)
+5. [License](#License)
 
 ---
 
@@ -24,7 +23,7 @@ npm install git+https://git@github.com/deverte/psi.git
 ```
 
 ## Wiki
-See [wiki](https://github.com/deverte/psi/wiki).
+Documentation and instructions can be found at project [wiki](https://github.com/deverte/psi/wiki).
 
 ## Usage
 ### Project structure
@@ -73,9 +72,6 @@ Based on the next packages:
 2. [svg.js](https://www.npmjs.com/package/@svgdotjs/svg.js)
 3. [svgdom](https://www.npmjs.com/package/svgdom)
 4. [lodash](https://www.npmjs.com/package/lodash)
-
-## Documentation
-Documentation can be found at project [wiki](https://github.com/deverte/psi/wiki).
 
 ## License
 **MIT**
