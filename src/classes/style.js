@@ -138,7 +138,7 @@ class Style {
      *                                           Must be in [0, 1] interval.
      */
     set canvas(value) {
-        value = _.defaultTo(value, this._CANVAS)
+        value = _.defaultTo(value, {})
         _.defaultsDeep(value, this._CANVAS)
 
         console.assert(
@@ -218,7 +218,7 @@ class Style {
      * @param {string} value.connections.color - Connections color.
      */
     set blocks(value) {
-        value = _.defaultTo(value, this._BLOCKS)
+        value = _.defaultTo(value, {})
         _.defaultsDeep(value, this._BLOCKS)
 
         console.assert(
@@ -320,7 +320,7 @@ class Style {
      * @param {number} value.interval - Interval between columns.
      */
     set columns(value) {
-        value = _.defaultTo(value, this._COLUMNS)
+        value = _.defaultTo(value, {})
         _.defaultsDeep(value, this._COLUMNS)
 
         console.assert(
@@ -347,7 +347,7 @@ class Style {
      * @param {number} value.interval - Interval between rows.
      */
     set rows(value) {
-        value = _.defaultTo(value, this._ROWS)
+        value = _.defaultTo(value, {})
         _.defaultsDeep(value, this._ROWS)
 
         console.assert(
@@ -377,7 +377,7 @@ class Style {
      * @param {string} value.color - Axis color.
      */
     set axis(value) {
-        value = _.defaultTo(value, this._AXIS)
+        value = _.defaultTo(value, {})
         _.defaultsDeep(value, this._AXIS)
 
         console.assert(

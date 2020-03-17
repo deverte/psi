@@ -106,6 +106,7 @@ class Row {
      * @param {string} value.text - Text or formula.
      */
     set content(value) {
+        value = _.defaultTo(value, {})
         _.defaultsDeep(value, this._CONTENT)
 
         console.assert(
@@ -144,6 +145,7 @@ class Row {
      *                                           "controlledInteraction" type.
      */
     set type(value) {
+        value = _.defaultTo(value, {})
         _.defaultsDeep(value, this._TYPE)
 
         console.assert(
@@ -191,6 +193,7 @@ class Row {
      * @param {boolean} value.out - Is there an outgoing connection.
      */
     set join(value) {
+        value = _.defaultTo(value, {})
         _.defaultsDeep(value, this._JOIN)
 
         console.assert(

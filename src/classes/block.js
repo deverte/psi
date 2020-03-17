@@ -230,6 +230,7 @@ class Block {
      * @param {object} value - MathJax API.
      */
     set mjAPI(value) {
+        value = _.defaultTo(value, {})
         _.defaultsDeep(value, this._MJ_API)
 
         console.assert(
@@ -248,6 +249,7 @@ class Block {
      * @param {object} value - MathJax typeset.
      */
     set mjTypeset(value) {
+        value = _.defaultTo(value, {})
         _.defaultsDeep(value, this._MJ_TYPESET)
 
         console.assert(
@@ -296,6 +298,7 @@ class Block {
      * @param {number | undefined} value.height - Formula wrapper height.
      */
     set wrapper(value) {
+        value = _.defaultTo(value, {})
         _.defaultsDeep(value, this._WRAPPER)
 
         console.assert(

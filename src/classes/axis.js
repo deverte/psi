@@ -119,6 +119,7 @@ class Axis {
      * @param {string} value.text - Label's text.
      */
     set label(value) {
+        value = _.defaultTo(value, {})
         _.defaultsDeep(value, this._LABEL)
 
         console.assert(
@@ -173,6 +174,7 @@ class Axis {
      *                               For example, `-1` to set the last column.
      */
     set position(value) {
+        value = _.defaultTo(value, {})
         _.defaultsDeep(value, this._POSITION)
 
         console.assert(
