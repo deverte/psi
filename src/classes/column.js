@@ -76,6 +76,7 @@ class Column {
      * @param {string} value.text - Time's text.
      */
     set time(value) {
+        value = _.defaultTo(value, {})
         _.defaultsDeep(value, this._TIME)
 
         console.assert(
