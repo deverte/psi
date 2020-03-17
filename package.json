@@ -1,16 +1,25 @@
 {
   "name": "psi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": [
     "Package for describing different quantum systems using diagrams.",
     "E.g. these diagrams can describe and represent models such as D-CTC, P-CTC, T-CTC."
   ],
   "main": "./main.js",
+  "scripts": {
+    "build": "npx babel src --out-dir lib"
+  },
   "dependencies": {
-    "mathjax-node": "^2.1.1",
     "@svgdotjs/svg.js": "^3.0.16",
-    "svgdom": "^0.0.21",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.15",
+    "mathjax-node": "^2.1.1",
+    "svgdom": "^0.0.21"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.7"
   },
   "author": "deverte",
   "license": "MIT"
