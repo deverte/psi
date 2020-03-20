@@ -125,6 +125,7 @@ class Diagram {
     /**
      * Generation of the diagram.
      * @public
+     * @returns Diagram object.
      * @example <caption>Example usage.</caption>
      * diagramFile = 'diagram.json'
      * diagramJSON = JSON.parse(JSON.minify(fs.readFileSync(diagramFile, 'utf8')))
@@ -146,6 +147,8 @@ class Diagram {
             Axes.addLabels(this)
             Axes.addTicks(this)
         }
+
+        return this
     }
 
     /**
