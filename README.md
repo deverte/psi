@@ -1,13 +1,13 @@
 # psi.js
 
 <div width="30%" align="center">
-    <img width="50%" src="https://raw.githubusercontent.com/wiki/deverte/psi/images/icon.svg" />
+    <img width="50%" src="https://raw.githubusercontent.com/wiki/deverte/psi/images/icon.svg?sanitize=true" />
 </div>
 
 JavaScript (Node.js) package for describing different quantum systems using diagrams. E.g. these diagrams can describe and represent models such as D-CTC, P-CTC and T-CTC.
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/wiki/deverte/psi/images/bell.svg" />
+    <img src="https://raw.githubusercontent.com/wiki/deverte/psi/images/bell.svg?sanitize=true" />
 </div>
 
 ---
